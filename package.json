@@ -1,6 +1,6 @@
 {
   "name": "@aaronsuuu/vue-zod-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue 3 library for zod form validation",
   "main": "dist/vue-zod-form.umd.js",
   "module": "dist/vue-zod-form.es.js",
