@@ -1,0 +1,44 @@
+{
+  "name": "@aaronsuuu/vue-zod-form",
+  "version": "1.0.0",
+  "description": "A Vue 3 library for zod form validation",
+  "main": "dist/vue-zod-form.umd.js",
+  "module": "dist/vue-zod-form.es.js",
+  "author": "aaronsuuu",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/vue-zod-form.es.js",
+      "require": "./dist/vue-zod-form.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": " vite build && tsc ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@vitejs/plugin-vue": "^5.2.2",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.7.0",
+    "jsdom": "^26.1.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1",
+    "vitest": "^3.1.2",
+    "vue-tsc": "^2.2.8"
+  }
+}
