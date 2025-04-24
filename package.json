@@ -9,6 +9,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronsuuu/vue-zod-form.git"
+  },
   "type": "module",
   "types": "dist/index.d.ts",
   "files": [
